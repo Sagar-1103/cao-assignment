@@ -156,6 +156,7 @@ export default function Home() {
                     </div>
                     <p className="text-sm text-muted-foreground text-gray-400">
                       Binary multiplication algorithm that handles both positive and negative numbers
+                      <span className="text-transparent">  when subtraction yields a negative result</span>
                     </p>
                   </div>
                   <div className="p-6 pt-0">
@@ -186,6 +187,7 @@ export default function Home() {
                     </div>
                     <p className="text-sm text-muted-foreground text-gray-400">
                       Binary division algorithm that restores the remainder when subtraction yields a negative result
+                      <span className="text-transparent">  when subtraction yields a negative result</span>
                     </p>
                   </div>
                   <div className="p-6 pt-0">
