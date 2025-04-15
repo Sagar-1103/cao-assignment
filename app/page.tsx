@@ -122,7 +122,7 @@ export default function Home() {
         </section>
 
         {/* Algorithm Cards */}
-        <section id="algorithms" className="relative">
+        <section id="algorithms" className="relative mb-20">
           <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/50 to-black/0 z-0"></div>
           <div className="container mx-auto px-4 relative z-10">
             <motion.p
