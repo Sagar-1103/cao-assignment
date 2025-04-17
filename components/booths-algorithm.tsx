@@ -532,7 +532,7 @@ export function BoothsAlgorithm({ multiplicand, multiplier }: { multiplicand?: s
                           key={index}
                           initial={{ opacity: 0, x: -20 }}
                           animate={{ opacity: 1, x: 0 }}
-                          transition={{ delay: index * 0.05 }}
+                          transition={{ delay: index * 0.5 }}
                           className={index % 2 === 0 ? "bg-muted/50" : ""}
                         >
                           <TableCell>
